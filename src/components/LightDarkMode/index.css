@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dark-light-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  padding: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  border-width: 0px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.dark-mode {
+  background-color: #000000;
+}
+
+.light-mode {
+  background-color: #ffffff;
+}
+
+.white-mode {
+  color: #ffffff;
+}
+
+.dark-mode {
+  color: #ffffff;
+}
+
+.white-button {
+  border-radius: 0px;
+}
